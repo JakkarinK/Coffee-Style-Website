@@ -3,19 +3,19 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const menulist = [
-    ["Home", "/"],
-    ["Our Products", "/Our-Products"],
-    ["Blog", "/Blog"],
-    ["About", "/About"],
-    ["Contact", "/Contact"],
-    ["StyleGuide", "/StyleGuide"],
+    ["Home", "Coffee-Style-Website/"],
+    ["Our Products", "Coffee-Style-Website/Our-Products"],
+    ["Blog", "Coffee-Style-Website/Blog"],
+    ["About", "Coffee-Style-Website/About"],
+    ["Contact", "Coffee-Style-Website/Contact"],
+    ["StyleGuide", "Coffee-Style-Website/StyleGuide"],
   ];
 
   return (
     <div className="navbar">
       <div className="container">
         <h1>
-          <Link to={"/"}>CoffeeStyle.</Link>
+          <Link to={"Coffee-Style-Website/"}>CoffeeStyle.</Link>
         </h1>
         <ul className="menubar">
           {menulist.map((menu, idx) => (
